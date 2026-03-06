@@ -1,0 +1,10 @@
+# Task 1:
+# Create a directory called practice_bash.
+# Inside it, create another directory week1.
+# Create a file called intro.txt inside week1.
+# Use ls -lh to confirm the file exists.
+
+mkdir -p practice_bash/week1
+cd practice_bash/week1
+touch practice_bash/week1/intro.txt
+ls -lh practice_bash/week1/
